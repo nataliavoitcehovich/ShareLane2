@@ -108,7 +108,7 @@ public class ShareLaneTest {
         driver.findElement(By.name("password2")).sendKeys("");
         driver.findElement(By.xpath("//*[@value='Register']")).click();
 
-        //driver.quit();
+        driver.quit();
 
     }
 }
